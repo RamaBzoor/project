@@ -1,0 +1,1403 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Inter&family=Poppins&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    margin: auto;
+    width: calc( 100% - 160px );
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif , 'Be Vietnam Pro';
+    height: 6666px;
+    background-color: #eee;
+}
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--white-95, #F1F1F3);
+    background-color: #FFF;
+}
+.butoons-continer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.butoons-continer .logo svg , footer .logo svg{
+    width: 48px;
+    height: 40px;
+    flex-shrink: 0;
+}
+.butoons-continer .logo , footer .logo{
+    border-radius: 8px;
+    display: flex;
+    width: 54px;
+    height: 54px;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    background: var(--orange-50, #FF9500);
+}
+.butoons-continer .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 26px;
+}
+.butoons-continer .nav ul li a{
+    color: var(--grey-15, #262626);
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+}
+.nav .home{
+    display: flex;
+    padding: 14px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--white-95, #F1F1F3);
+}
+.row .auth {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.auth .SignUp {
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+}
+.auth .Login {
+    color: var(--absolute-white, #FFF);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    display: flex;
+    padding: 14px 34px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--orange-50, #FF9500);
+}
+.auth svg{
+    display: none;
+}
+.hero-section{
+    padding: 80px 0;
+}
+.hero-section .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+.hero-section .icon svg {
+    width: 39px;
+    height: 43px;
+    position: absolute;
+    left: 230px;
+    top: 35px;
+}
+.hero-section .sub-continer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px 30px 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+.hero-section .sub-continer svg{
+    width: 50px;
+    height: 50px;
+}
+.hero-section .sub-continer .log{
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--orange-95, #FFF4E5);
+}
+.hero-section .sub-continer h2{
+    color: var(--grey-10, #1A1A1A);
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-weight: 600;
+}
+.hero-section .sub-continer h2 span{
+    color: var(--orange-50, #FF9500);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-weight: 600;
+}
+.hero-section h3{
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 35px;
+    align-self: stretch;
+    font-weight: 500;
+}
+.hero-section h3 span{
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.hero-section .auth .Explore-Courses{
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--orange-50, #FF9500);
+    color: var(--absolute-white, #FFF);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-section .auth .View-Pricing{
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font family: Be Vietnam Pro;
+    font-size : 18px;
+    font-weight : 500;
+}
+.card .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 12px;
+    background: var(--white-99, #fdfcfc);
+}
+.card .row .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    border-right: 1px solid var(--white-95, #f3f1f2);
+}
+.hero-section img{
+    width: 100%;
+}
+.Benefits-section{
+    padding: 40px 0;
+}
+.Benefits-section .row{
+    gap: 35px;
+}
+.heading h2{
+    align-self: stretch;
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 35px;
+    font-weight: 600;
+}
+.view{
+    display: flex;
+    align-items: flex-end;
+    gap: 300px;
+    align-self: stretch;
+}
+ .heading p{
+    align-self: stretch;
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 400;
+}
+.heading .auth .View-All , .Our-Courses .View-All , .Our-Testimonials .View-All{
+    display: flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font family: Be Vietnam Pro;
+    font-size : 15px;
+    font-weight : 500;
+    width: 107px;
+}
+.Benefits-section .card-Benefits{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+}
+.card-Benefits .cards-Benefits{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 38px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 38px;
+    border-radius: 12px;
+    background: var(--absolute-white, #FFF);
+    width: calc((100% - 45px ) / 3);
+}
+.cards-Benefits h2{
+    align-self: stretch;
+    color: var(--grey-15, #262626);
+    text-align:right;
+    font-family: Be Vietnam Pro;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+}
+.cards-Benefits h3{
+    align-self: stretch;
+    color: var(--grey-20, #333);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+}
+.cards-Benefits p{
+    align-self: stretch;
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+}
+.cards-Benefits svg{
+    width: 50px;
+    height: 50px;
+}
+.cards-Benefits .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    padding: 10px;
+}
+.Our-Courses{
+    padding: 40px 0;
+}
+.Our-Courses .row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px;
+}
+.card-Courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+}
+.card-Courses .cards-Courses {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    width: calc((100% - 40px) / 2);
+}
+.cards-Courses img {
+    height: 330px;
+    align-self: stretch;
+    border-radius: 8px;
+}
+.cards-Courses .sub-continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.cards-Courses .sub-continer .continer{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.sub-continer .continer .Weeks{
+    display: flex;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sub-continer .continer .T{
+    display: flex;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cards-Courses .sub-continer span{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 500;
+    width: 35%;
+}
+.cards-Courses .text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+.cards-Courses .text span{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-weight: 600;
+    align-self: stretch;
+}
+.cards-Courses .text p{
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.cards-Courses .button .Get-it-Now{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8); 
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cards-Courses .button{
+    width: 100%;
+}
+.Our-Testimonials{
+    padding: 40px 0;
+}
+.Our-Testimonials .row{
+    gap: 35px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card-Testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-between;
+}
+.card-Testimonials .cards-testimonial{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    width: calc((100% - 20px) / 2);
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+}
+.cards-testimonial .continer:nth-child(1){
+    padding: 50px;
+    width: 100%;
+}
+.cards-testimonial .continer p{
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+}
+.cards-testimonial .continer:nth-child(2){
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    background: var(--white-99,#FCFCFD);
+    width: 100%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.cards-testimonial .continer .sub-continer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 0 0;
+}
+.cards-testimonial .sub-continer span{
+    color: var(--grey-20, #333);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cards-testimonial a{
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Our-Pricing{
+    padding: 40px 0;
+}
+.Our-Pricing .row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px;
+}
+.Our-Pricing .row .continer{
+    display: flex;
+    align-items: flex-end;
+    gap: 300px;
+    align-self: stretch;
+    width: 100%;
+}
+.Our-Pricing .continer h2{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 35px; 
+    font-weight: 600;
+    width: 100%;
+}
+.Our-Pricing .continer p{
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+.Our-Pricing .auth{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--absolute-white, #FFF);
+}
+.Our-Pricing .auth .Monthly{
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--orange-50, #FF9500);
+    color: var(--absolute-white, #FFF);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Our-Pricing .auth .Yearly{
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Our-Pricing .card-Pricing{
+    display: flex;
+    padding: 80px;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+    background: var(--absolute-white, #FFF);
+}
+.Our-Pricing .cards-pric{
+    display: flex;
+    padding: 50px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+    width: calc((100% - 20px) / 2);
+}
+.cards-pric .continer:nth-child(1){
+    display: flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--orange-90, #FFEACC);
+    background: var(--orange-97, #FFF9F0);
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cards-pric .continer:nth-child(2){
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+    width: 0%;
+}
+.cards-pric .continer:nth-child(2) span{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 80px;
+    font-weight: 600;
+}
+.cards-pric .continer:nth-child(2) P{
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cards-pric .sub-continer{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--absolute-white, #FFF);
+}
+.cards-pric .sub-continer h4{
+    color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cards-pric .items{
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+.cards-pric .items .feature{
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;  
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3)
+}
+.feature svg{
+    width: 30px;
+    height: 30px;
+}
+.feature .t{
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--orange-95, #FFF4E5);
+}
+.feature .f{
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--white-95, #F1F1F3);
+}
+.feature p{
+    color: var(--grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cards-pric .get{
+    display: flex;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 0px 0px 8px 8px;
+    background: var(--orange-50, #FF9500);
+    color: var(--absolute-white, #FFF);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    background: var(--absolute-white, #FFF);
+    padding: 100px 130px 30px 130px;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 50px;
+}
+footer .row .sub-continer:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+footer .butoon-continer{
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+}
+.butoon-continer .button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+}
+.butoon-continer .button svg{
+    width: 24px;
+    height: 24px;
+}
+.butoon-continer .button span{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer .row .sub-continer:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+}
+footer .sub-continer .item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+.item h5{
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 600;
+}
+.item nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.item nav a{
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer .end {
+    color: var(--grey-40, #656567);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+footer .ico{
+    display: flex;
+    gap: 10px;
+}
+footer .ico svg{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 8px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+}
+footer .ite{
+    display: flex;
+    gap: 35px;
+}
+hr{
+height: 1px;
+background:#F1F1F3;
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    
+    .butoons-continer .logo, footer .logo{
+        width: 46px;
+        height: 46px;
+        padding: 5.7px;
+    }
+    .butoons-continer .logo svg , footer .logo svg{
+        width: 40px;
+        height: 34px;
+    }
+    .butoons-continer .nav ul li a{
+        font-size: 14px;
+    }
+    .nav .home{
+        padding: 12px 20px;
+    }
+    .auth .SignUp{
+        font-size: 14px;
+    }
+    .auth .Login{
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+    .hero-section .icon svg {
+        left: 70px;
+    }
+    .hero-section .sub-continer{
+        padding: 12px 24px 12px 12px;
+        border-radius: 8px;
+    }
+    .hero-section .sub-continer svg{
+        width: 40px;
+        height: 40px;
+    }
+    .hero-section .sub-continer .log{
+        padding: 12px;
+    }
+    .hero-section .sub-continer h2{
+        font-size: 36px;
+    }
+    .hero-section .sub-continer h2 span{
+        font-size: 36px;
+    }
+    .hero-section h3{
+        font-size: 25px;
+    }
+    .hero-section h3 span{
+        font-size: 16px;
+    }
+    .hero-section .auth .Explore-Courses{
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+    .hero-section .auth .View-Pricing{
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+    .card .row{
+        padding: 24px;
+        border-radius: 8px;
+    }
+    .card .row .cards{
+        gap: 35px;
+    }
+    .card .row .cards svg{
+        width: 40px;
+        height: 20px;
+    }
+    .Benefits-section .row{
+        gap: 26px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    .view{
+        gap: 250px;
+    }
+    .heading p{
+        font-size: 10px;
+    }
+    .heading .auth .View-All, .Our-Courses .View-All, .Our-Testimonials .View-All{
+        padding: 10px 14px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .card-Benefits .cards-Benefits{
+        gap: 20px;
+        padding: 19px;
+    }
+    .cards-Benefits h2{
+        font-size: 50px;
+    }
+    .cards-Benefits h3{
+        font-size: 12px;
+    }
+    .cards-Benefits p{
+        font-size: 12px;
+    }
+    .cards-Benefits svg{
+        width: 40px;
+        height: 40px;
+    }
+    .cards-Benefits .icon{
+        padding: 5px;
+        border-radius: 6px;
+    }
+    .Our-Courses .row{
+        gap: 26px;
+    }
+    .card-Courses .cards-Courses{
+        padding: 25px;
+        border-radius: 10px;
+    }
+    .cards-Courses img{
+        height: 220px;
+        width: 360px;
+    }
+    .sub-continer .continer .Weeks{
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .sub-continer .continer .T{
+        padding: 8px 14px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .cards-Courses .sub-continer span{
+        font-size: 10px;
+    }
+    .cards-Courses .text{
+        gap: 10px;
+    }
+    .cards-Courses .text span{
+        font-size: 16px;
+    }
+    .cards-Courses .text p{
+        font-size: 10px;
+    }
+    .cards-Courses .button .Get-it-Now{
+        padding: 14px 24px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .cards-testimonial .continer:nth-child(1){
+        padding: 40px;
+    }
+    .cards-testimonial .continer p{
+        font-size: 12px;
+    }
+    .cards-testimonial .continer:nth-child(2){
+        padding: 24px 40px;
+
+    }
+    .cards-testimonial .continer .sub-continer{
+        gap: 10px;
+    }
+    .cards-testimonial .sub-continer img{
+        width: 50px;
+        height: 50px;
+    }
+    .cards-testimonial .sub-continer span{
+        font-size: 12px;
+    }
+    .cards-testimonial a{
+        padding: 12px 14px;
+        font-size: 10px;
+    }
+    .Our-Pricing .row{
+        gap: 26px;
+    }
+    .Our-Pricing .row .continer{
+        gap:230px
+    }
+    .Our-Pricing .continer h2{
+        font-size: 25px;
+    }
+    .Our-Pricing .continer p{
+        font-size: 10px;
+    }
+
+    .Our-Pricing .auth .Monthly{
+        padding: 7px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .Our-Pricing .auth .Yearly{
+        padding: 7px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    .Our-Pricing .auth{
+        padding: 12px;
+    }
+    .Our-Pricing .card-Pricing{
+        padding: 50px;
+        gap: 30px;
+    }
+    .Our-Pricing .cards-pric{
+        padding: 40px 24px 24px 24px;
+    }
+    .cards-pric .continer:nth-child(1){
+        padding: 10px 22px;
+        font-size: 18px;
+    }
+    .cards-pric .continer:nth-child(2){
+        gap: 0px;
+    }
+    .cards-pric .continer:nth-child(2) span{
+        font-size: 50px;
+    }
+    .cards-pric .continer:nth-child(2) P{
+        font-size: 16px;
+    }
+    .cards-pric .sub-continer{
+        padding: 30px;
+        gap: 24px;
+    }
+    .cards-pric .sub-continer h4{
+        font-size: 16px;
+    }
+    .cards-pric .items .feature{
+        padding: 10px;
+        gap: 8px;
+        border-radius: 6px;
+    }
+    .feature svg{
+        width: 24px;
+        height: 24px;
+    }
+    .feature .t{
+        padding: 4px;
+        border-radius: 4px;
+    }
+    .feature .f{
+        padding: 4px;
+        border-radius: 4px;
+    }
+    .feature p{
+        font-size: 10px;
+    }
+    .cards-pric .get{
+        font-size: 14px;
+    }
+    footer {
+        padding: 60px 80px 20px 80px;
+        gap: 30px;
+    }
+    footer .row .sub-continer:nth-child(1) {
+        gap: 30px;
+    }
+    footer .butoon-continer {
+        gap: 8px;
+    }
+    .butoon-continer .button span {
+        font-size: 12px;
+    }
+    .butoon-continer .button {
+        gap: 3px;
+    }
+    .butoon-continer .button svg {
+        width: 20px;
+        height: 20px;
+    }
+    footer .row .sub-continer:nth-child(2) {
+        gap: 22px;
+    }
+    footer .sub-continer .item {
+        gap: 8px;
+    }
+    .item h5 {
+        font-size: 14px;
+    }
+    .item nav a {
+        font-size: 12px;
+    }
+    footer .ico svg {
+        width: 18px;
+        height: 18px;
+        padding: 9px;
+    }
+    footer .end{
+        font-size: 12px;
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    .continer {
+        width: calc( 100% - 35px );
+      }
+    .butoons-continer .logo svg, footer .logo svg {
+        width: 29px;
+        height: 29px;
+    }
+    .butoons-continer .logo, footer .logo {
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+    .butoons-continer .nav ul {
+        display: none;
+    }
+    .row .auth{
+        gap: 10px;
+    }
+    .auth .SignUp{
+        font-size: 14px;
+    }
+    .auth .Login {
+        font-size: 14px;
+        padding: 12px 12px;
+        border-radius: 6px;
+    }
+    .auth svg{
+        display: block;
+        width: 40px;
+        height: 40px; 
+    }
+    .hero-section {
+        padding: 40px 0;
+    }
+    .hero-section .sub-continer {
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+    .hero-section .icon svg {
+        width: 30px;
+        height: 35px;
+        left: -15px;
+        top: 40px;
+    }
+    .hero-section .sub-continer .log{
+        width: 33px;
+        height: 33px;
+        padding: 6px;
+    }
+    .hero-section .sub-continer h2 span {
+        font-size: 14px;
+    }
+    .hero-section .sub-continer h2 {
+        font-size: 14px;
+    }
+    .hero-section h3{
+        font-size: 24px;
+    }
+    .hero-section h3 span{
+        font-size: 14px;
+    }
+    .hero-section .auth .Explore-Courses {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    .hero-section .auth .View-Pricing{
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    .card .row{
+        padding: 25px;
+        gap: 20px;
+    }
+    .card .row .cards{
+        border-right: 1px solid var(--white-95, #f3f1f2);
+    }
+    .card .row .cards:nth-child(4) , .card .row .cards:nth-child(5) ,.card .row .cards:nth-child(6) ,.card .row .cards:nth-child(7) {
+        display: none;
+    }
+    .card .row .cards svg :nth-child(1){
+        width: 48px;
+        height: 24px;
+    }
+    .card .row .cards svg :nth-child(2){
+        width: 80px;
+        height: 24px;
+    }
+    .card .row .cards svg :nth-child(3){
+        width: 49px;
+        height: 24px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    .view{
+        display: block;
+    }
+    .heading p{
+        font-size: 11px;
+    }
+    .heading .auth .View-All, .Our-Courses .View-All, .Our-Testimonials .View-Al{
+        padding: 14px 20px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+    .Benefits-section .card-Benefits{
+        flex-direction: column;
+    }
+    .card-Benefits .cards-Benefits{
+        width: 100%;
+        padding: 20px;
+        gap: 15px;
+    }
+    .cards-Benefits h2{
+        font-size: 50px;
+    }
+    .cards-Benefits h3{
+        font-size: 16px;
+    }
+    .cards-Benefits p{
+        font-size: 14px;
+    }
+    .card-Courses{
+        flex-direction: column;
+    }
+
+    .cards-Courses img{
+        height: 130px;;
+    }
+    .card-Courses .cards-Courses {
+        padding: 24px;
+        gap: 20px;
+        width: 100%;
+      }
+    .cards-Courses .sub-continer{
+        flex-direction: column;
+        gap: 14px;
+    }
+    .cards-Courses .sub-continer .continer{
+        gap: 6px;
+        width: 100%;
+    }
+    .cards-Courses .sub-continer span{
+        font-size: 16px;
+        width: 100%;
+    }
+    .sub-continer .continer .Weeks{
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    .sub-continer .continer .T{
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    .cards-Courses .text{
+        gap: 10px;
+    }
+    .cards-Courses .text span{
+        font-size: 17px;
+    }
+    .cards-Courses .text p{
+        font-size: 12px;
+    }
+    .cards-Courses .button .Get-it-Now{
+        padding: 14px 24px;
+        font-size: 12px;
+    }
+    .card-Testimonials{
+        width: 100%;
+        flex-direction: column;
+    }
+    .card-Testimonials .cards-testimonial{
+        width: 100%;
+    }
+    .cards-testimonial .continer p{
+        font-size: 12px;
+    }
+    .cards-testimonial .continer:nth-child(1) {
+        padding: 30px;
+        width: 100%;
+      }
+    .cards-testimonial .continer:nth-child(2) {
+        padding: 20px 25px;
+    }
+    .cards-testimonial .continer .sub-continer{
+        gap: 1PX;
+    }
+    .cards-testimonial .continer .sub-continer img{
+        width: 50px;
+        height: 50px;
+    }
+    .cards-testimonial .sub-continer span{
+        font-size: 12px;
+    }
+    .cards-testimonial a {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+    .Our-Pricing .continer h2{
+        font-size: 25px;
+    }
+    .Our-Pricing .continer p{
+        font-size: 11px;
+    }
+    
+    .Our-Pricing .auth{
+        padding: 8px;
+        text-align: center;
+        margin: auto;
+    }
+    .Our-Pricing .auth .Monthly{
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    .Our-Pricing .auth .Yearly{
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    .Our-Pricing .card-Pricing{
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+    .Our-Pricing .cards-pric{
+        width: 100%;
+        padding: 30px 20px 20px 20px;
+        gap: 30px;
+    }
+    .Our-Pricing .row .continer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .cards-pric .continer:nth-child(1){
+        padding: 8px 22px;
+        font-size: 16px;
+    }
+    .cards-pric .continer:nth-child(2) span{
+        font-size: 50px;
+    }
+    .cards-pric .continer:nth-child(2) P{
+        font-size: 14px;
+        margin-top: auto;
+    }
+    .card-Pricing .cards-pric :nth-child(2){
+        gap: 0px;
+    }
+    .cards-pric .sub-continer{
+        padding: 20px;
+        gap: 20px;
+    }
+    .cards-pric .sub-continer h4{
+        font-size: 17px;
+    }
+    .cards-pric .items{
+        padding: 0px 0px;
+    }
+    .cards-pric .items .feature{
+        padding: 12px;
+        gap: 8px;
+    }
+    .feature svg {
+        width: 25px;
+        height: 25px;
+    }
+    .feature .t{
+        padding: 4px;
+    }
+    .feature .f{
+        padding: 4px;
+    }
+    .cards-pric .get{
+        padding: 18px;
+        font-size: 14px;
+    }
+    footer{
+        padding: 50px 20px 24px 20px;
+    }
+    footer .row .sub-continer:nth-child(1){
+        gap: 30px;
+    }
+    footer .butoon-continer{
+        gap: 12px;
+    }
+    .butoon-continer .button svg {
+        width: 22px;
+        height: 22px;
+    }
+    .butoon-continer .button span{
+        font-size: 12px;
+    }
+    footer .row{
+        gap: 20px;
+    }
+    footer .row .sub-continer:nth-child(2){
+        flex-wrap: wrap;
+    }
+    .item nav a{
+        font-size: 12px;
+    }
+    footer .end{
+        margin-top: 20px;
+        font-size: 13px;
+    }  
+}
